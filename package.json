@@ -1,0 +1,14 @@
+{
+  "name": "prefab-ui-universal-app",
+  "version": "0.0.1",
+  "description": "Universal React Starter Kit for React",
+  "main": "index.js",
+  "repository": "git@github.com:yantrashala/prefab-ui-universal-app.git",
+  "author": "Prefab Core Team",
+  "license": "MIT",
+  "workspaces": [
+    "api",
+    "app",
+    "atomic-components"
+  ]
+}

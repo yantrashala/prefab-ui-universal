@@ -1,0 +1,21 @@
+{
+  "name": "fab-universal-app",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.7",
+    "@zeit/next-typescript": "^1.1.1",
+    "mobx": "^5.9.0",
+    "mobx-react": "^5.4.3",
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
