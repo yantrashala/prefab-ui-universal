@@ -6,6 +6,8 @@ A Universal React App as part of the Prefab Pipeline
 
 `git clone git@github.com:yantrashala/prefab-ui-universal-app.git`
 
+` cd prefab-ui-universal-app` 
+
 `yarn run d-build`
 
 `yarn run d-run`
