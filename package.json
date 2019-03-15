@@ -6,9 +6,20 @@
   "repository": "git@github.com:yantrashala/prefab-ui-universal-app.git",
   "author": "Prefab Core Team",
   "license": "MIT",
+  "private": true,
+  "scripts": {
+    "gen": "rimraf packages/app/package.json rimraf packages/app/pages/index.js rimraf packages/app/pages/about.js && plop",
+    "start": "cd packages/app && npm run dev",
+    "d-build": "cd packages/app && npm run d-build",
+    "d-run": "cd packages/app && npm run d-run"
+  },
   "workspaces": [
     "api",
     "app",
     "atomic-components"
-  ]
+  ],
+  "dependencies": {
+    "plop": "^2.3.0",
+    "rimraf": "^2.6.3"
+  }
 }
