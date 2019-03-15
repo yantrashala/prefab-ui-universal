@@ -2,9 +2,22 @@
 
 A Universal React App as part of the Prefab Pipeline
 
+## Steps to Setup
+
+Clone the Repo
+`git clone git@github.com:yantrashala/prefab-ui-universal-app.git`
+
+Install Packages
+` yarn install -W`
+
+Run the CLI Generator
+` npm run gen`
+
+
+
 ## Run via Docker
 
-`git clone git@github.com:yantrashala/prefab-ui-universal-app.git`
+
 
 ` cd prefab-ui-universal-app` 
 
