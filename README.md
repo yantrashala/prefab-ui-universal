@@ -10,16 +10,11 @@ Clone the Repo
 Install Packages
 ` yarn install -W`
 
-Run the CLI Generator
+Run the CLI Generator and answer the questions
 ` npm run gen`
 
 
-
-## Run via Docker
-
-
-
-` cd prefab-ui-universal-app` 
+## Build via Docker
 
 `yarn run d-build`
 
@@ -28,8 +23,6 @@ Run the CLI Generator
 In the browser http://localhost:3000
 
 ## Build and Run Locally
-
-`git clone git@github.com:yantrashala/prefab-ui-universal-app.git`
 
 `cd prefab-ui-universal-app/packages/app`
 
