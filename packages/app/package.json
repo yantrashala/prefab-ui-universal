@@ -1,5 +1,5 @@
 {
-  "name": "fab-universal-app",
+  "name": "test",
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
@@ -8,8 +8,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "d-build": "docker build -t fab/universal .",
-    "d-run": "docker run -p 3000:3000 fab/universal"
+    "d-build": "docker build -t test .",
+    "d-run": "docker run -p 3000:3000 test"
   },
   "dependencies": {
     "@emotion/core": "^10.0.7",
