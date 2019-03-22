@@ -6,7 +6,7 @@ module.exports = function(plop) {
       {
         type: 'input',
         name: 'project-name',
-        message: 'Name of your project'
+        message: 'Name of your Micro-App'
       }
     ], // array of inquirer prompts
     actions: [
