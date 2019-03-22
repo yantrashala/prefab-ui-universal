@@ -6,7 +6,7 @@ import { Reaction } from 'mobx';
 const Index = () => (
   <React.Fragment>
     <Header />
-    <h1> Welcome to Test</h1>
+    <h1> Welcome to Fab - Universal</h1>
     <Banner />
     <BillBoard />
   </React.Fragment>
