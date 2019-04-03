@@ -1,4 +1,7 @@
 const withTypescript = require("@zeit/next-typescript");
-module.exports = withTypescript({
-  //   target: "serverless"
-});
+const withTM = require('next-transpile-modules');
+module.exports = withTypescript(
+  withTM({
+    transpileModules: ['atomic-components']
+  })
+);
