@@ -11,7 +11,10 @@
     "gen": "rimraf packages/app/package.json rimraf packages/app/pages/index.js rimraf packages/app/pages/about.js && plop",
     "start": "cd packages/app && npm run dev",
     "d-build": "cd packages/app && npm run d-build",
-    "d-run": "cd packages/app && npm run d-run"
+    "d-run": "cd packages/app && npm run d-run",
+    "install:apps": "lerna bootstrap",
+    "build:apps": "lerna run --parallel build"
+
   },
   "workspaces": [
     "api",
@@ -21,5 +24,8 @@
   "dependencies": {
     "plop": "^2.3.0",
     "rimraf": "^2.6.3"
+  },
+  "devDependencies": {
+    "lerna": "^3.13.1"
   }
 }
