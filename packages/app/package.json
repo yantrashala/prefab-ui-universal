@@ -1,5 +1,5 @@
 {
-  "name": "fab-universal",
+  "name": "app",
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "@emotion/core": "^10.0.7",
     "@google-cloud/storage": "^2.4.2",
     "@zeit/next-typescript": "^1.1.1",
-    "atomic-components": "file:../atomic-components/src",
+    "atomic-components": "^0.0.1",
     "mobx": "^5.9.0",
     "mobx-react": "^5.4.3",
     "next": "^8.0.3",

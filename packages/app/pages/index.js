@@ -2,7 +2,7 @@ import Header from '../components/Header';
 import Banner from '../components/Banner';
 import BillBoard from '../components/Billboard';
 import { Reaction } from 'mobx';
-import Button from 'atomic-components/button';
+import Button from 'atomic-components/src/button';
 
 const Index = () => (
   <React.Fragment>
