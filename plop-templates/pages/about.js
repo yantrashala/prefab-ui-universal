@@ -3,7 +3,7 @@ import Header from '../components/Header';
 const About = () => (
   <React.Fragment>
     <Header />
-    <h1>About ##__PROJECT_NAME_DASH_CASE__##</h1>
+    <h1>About Test</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
       ultricies a turpis id suscipit. Fusce interdum mi nec elit tincidunt, non
